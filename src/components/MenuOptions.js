@@ -1,0 +1,28 @@
+const MenuOptions = [
+  {
+    id: 1,
+    title: "Chicken McMuffin",
+    category: "Breakfast",
+    img: "https://www.mcdonalds.com/is/image/content/dam/ca/nfl/web/nutrition/products/tile/en/mcdonalds-chicken-mcmuffin.jpg?$Category_Desktop$",
+  },
+  {
+    id: 2,
+    title: "Big Mac",
+    category: "Beef",
+    img: "https://www.mcdonalds.com/is/image/content/dam/ca/nfl/web/nutrition/products/tile/en/mcdonalds-big-mac.jpg?$Category_Desktop$",
+  },
+  {
+    id: 3,
+    title: "Spiciest Ghost Pepper McChicken",
+    category: "Chicken",
+    img: "https://www.mcdonalds.com/is/image/content/dam/ca/nfl/web/nutrition/products/tile/en/mcdonalds-spiciest-ghost-pepper-mcchicken.jpg?$Category_Desktop$",
+  },
+  {
+    id: 4,
+    title: "Egg McMuffin",
+    category: "Breakfast",
+    img: "https://www.mcdonalds.com/is/image/content/dam/ca/nfl/web/nutrition/products/tile/en/mcdonalds-egg-mcmuffin.jpg?$Category_Desktop$",
+  },
+];
+
+export default MenuOptions;
