@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import Menu from "./components/Menu";
+import Categories from "./components/Categories";
+import MenuOptions from "./components/MenuOptions";
 
 function App() {
+  const [menu, setMenu] = useState([MenuOptions]);
+  const [categories, setCategories] = useState();
+
+  const filtering = (id) => {
+    let newMenu = MenuOptions.filter();
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Categories />
+      <Menu />
     </div>
   );
 }
