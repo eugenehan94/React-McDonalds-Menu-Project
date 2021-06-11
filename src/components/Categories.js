@@ -1,12 +1,7 @@
 import "../css/Categories.css";
-
-const Categories = ({
-  categories,
-  filtering,
-  fullMenu,
-  selected,
-  menuOptions,
-}) => {
+import categoryPics from "./CategoryPics";
+const Categories = ({ categories, filtering, fullMenu, selected }) => {
+  console.log(categoryPics[0]);
   return (
     <div>
       <div className="button-reset-container">
@@ -19,11 +14,13 @@ const Categories = ({
           return (
             <div key={id} className={item === selected ? "active_choice" : ""}>
               <button
+                className="button-individual"
                 type="button"
                 className={item === selected ? "active_bold" : ""}
                 onClick={() => filtering(item)}
               >
-                menuOptions.
+                <img src={categoryPics[id]} alt={item.title} />
+
                 {item}
               </button>
             </div>

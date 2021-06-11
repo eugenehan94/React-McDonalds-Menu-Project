@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+.container-categories {
+  margin: 3rem;
+  padding: 0;
+}
+
+.container-menu {
+  width: 75%;
+}

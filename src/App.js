@@ -7,7 +7,6 @@ import MenuOptions from "./components/MenuOptions";
 //The new Set function isolates for unique values
 //Prevents repeating categories from being displayed
 const allCategories = [
-  "All",
   ...new Set(MenuOptions.map((options) => options.category)),
 ];
 
@@ -29,12 +28,17 @@ MenuOptions.sort(function (a, b) {
 function App() {
   const [menu, setMenu] = useState(MenuOptions);
   const [categories, setCategories] = useState(allCategories);
+  const [selected, setSelected] = useState("Temporary Limited Menu");
 
-  console.log(menu);
+  const fullMenu = () => {
+    setMenu(MenuOptions);
+    setSelected("Temporary Limited Menu");
+  };
 
   const filtering = (category) => {
     if (category === "All") {
       setMenu(MenuOptions);
+      setSelected("Temporary Limited Menu");
       return;
     }
 
@@ -42,12 +46,23 @@ function App() {
       (options) => options.category === category
     );
     setMenu(newMenu);
+    setSelected(category);
   };
 
   return (
-    <div>
-      <Categories categories={categories} filtering={filtering} />
-      <Menu menus={menu} />
+    <div className="container">
+      <div className="container-categories">
+        <Categories
+          categories={categories}
+          filtering={filtering}
+          fullMenu={fullMenu}
+          selected={selected}
+          menuOptions={MenuOptions}
+        />
+      </div>
+      <div className="container-menu">
+        <Menu selected={selected} menus={menu} />
+      </div>
     </div>
   );
 }
