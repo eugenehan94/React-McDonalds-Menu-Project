@@ -14,7 +14,6 @@ const Categories = ({ categories, filtering, fullMenu, selected }) => {
           return (
             <div key={id} className={item === selected ? "active_choice" : ""}>
               <button
-                className="button-individual"
                 type="button"
                 className={item === selected ? "active_bold" : ""}
                 onClick={() => filtering(item)}
