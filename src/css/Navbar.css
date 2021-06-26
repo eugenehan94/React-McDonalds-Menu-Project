@@ -1,0 +1,36 @@
+.Navbar-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+.Navbar-container-inner {
+  display: flex;
+  margin: 0 3.2rem;
+  position: relative;
+  box-sizing: border-box;
+}
+.Navbar-logo {
+  margin: 0;
+  padding: 0;
+}
+.Navbar-choices-container {
+  position: absolute;
+  bottom: 0px;
+  left: 7rem;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+li a {
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+.active {
+  border-bottom: 5px solid rgb(202, 5, 5);
+}

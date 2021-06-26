@@ -1,8 +1,11 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Navbar from "./components/Navbar";
+import CovidMessage from "./components/CovidMessage";
 import Menu from "./components/Menu";
 import Categories from "./components/Categories";
 import MenuOptions from "./components/MenuOptions";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 //The new Set function isolates for unique values
 //Prevents repeating categories from being displayed
@@ -50,20 +53,35 @@ function App() {
   };
 
   return (
-    <div className="container">
-      <div className="container-categories">
-        <Categories
-          categories={categories}
-          filtering={filtering}
-          fullMenu={fullMenu}
-          selected={selected}
-          menuOptions={MenuOptions}
-        />
-      </div>
-      <div className="container-menu">
-        <Menu selected={selected} menus={menu} />
-      </div>
-    </div>
+    <Router>
+      <Navbar />
+
+      <Switch>
+        <Route exact path={["/", "/menu"]}>
+          <CovidMessage />
+          <div className="container">
+            <div className="container-categories">
+              <Categories
+                categories={categories}
+                filtering={filtering}
+                fullMenu={fullMenu}
+                selected={selected}
+                menuOptions={MenuOptions}
+              />
+            </div>
+            <div className="container-menu">
+              <Menu selected={selected} menus={menu} />
+            </div>
+          </div>
+        </Route>
+        <Route path="/nutrition">
+          <h1>Nutrition</h1>
+        </Route>
+        <Route path="/promotion">
+          <h1>Promotion</h1>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
