@@ -26,16 +26,7 @@ const Navbar = () => {
                 Menu
               </Link>
             </li>
-            <li>
-              <Link
-                to="/nutrition"
-                className={`${
-                  location.pathname === "/nutrition" ? "active" : null
-                }`}
-              >
-                Nutrition
-              </Link>
-            </li>
+
             <li>
               <Link
                 to="/promotion"
@@ -44,6 +35,16 @@ const Navbar = () => {
                 }`}
               >
                 Promotions
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/family"
+                className={`${
+                  location.pathname === "/family" ? "active" : null
+                }`}
+              >
+                Family
               </Link>
             </li>
           </ul>

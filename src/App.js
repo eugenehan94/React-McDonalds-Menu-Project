@@ -5,6 +5,8 @@ import CovidMessage from "./components/CovidMessage";
 import Menu from "./components/Menu";
 import Categories from "./components/Categories";
 import MenuOptions from "./components/MenuOptions";
+import Promotions from "./components/Promotions";
+import Family from "./components/Family";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 //The new Set function isolates for unique values
@@ -74,11 +76,12 @@ function App() {
             </div>
           </div>
         </Route>
-        <Route path="/nutrition">
-          <h1>Nutrition</h1>
-        </Route>
+
         <Route path="/promotion">
-          <h1>Promotion</h1>
+          <Promotions />
+        </Route>
+        <Route path="/family">
+          <Family />
         </Route>
       </Switch>
     </Router>
