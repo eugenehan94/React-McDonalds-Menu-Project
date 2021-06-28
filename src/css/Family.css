@@ -9,11 +9,14 @@
 }
 .family-message-container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.6fr;
   margin-top: 2rem;
 }
 .family-message-title {
   text-align: center;
+}
+.family-message-content {
+  padding-right: 5rem;
 }
 .family-message-button {
   background-color: #ffbc0d;

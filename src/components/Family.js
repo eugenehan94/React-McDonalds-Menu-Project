@@ -14,7 +14,7 @@ const Family = () => {
         <div className="family-message-title">
           <h2>Happy kids, happy parents</h2>
         </div>
-        <div>
+        <div className="family-message-content">
           <h3>You want the best for your family. So do we.</h3>
           <p>
             Choose from great Happy Meal® options like apple slices, 1% milk,
