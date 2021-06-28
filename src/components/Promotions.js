@@ -1,16 +1,21 @@
 import Sundae from "../images/SundaeDrinkSummerTime.jpg";
 import RefreshingSip from "../images/RefreshingSipOfSummer.jpg";
+import McMuffin from "../images/YourFavouriteMcMuffin.jpg";
+import BicMac from "../images/BigMacJustGotBigger.jpg";
+import "../css/Promotions.css";
 const Promotions = () => {
   return (
     <>
-      <h1>Deals & Promotion</h1>
-      <div>
+      <h1 className="Promotions-title">Deals & Promotions</h1>
+      <div className="deals-outer-container">
         {/* Top <div> is the whole page */}
         <div className="deals-inner-container">
-          <div>
-            <img src={Sundae} alt="summertime"></img>
-            <div>
-              <h3>Add chill time to summertime</h3>
+          <div className="promo-container">
+            <div className="image-container">
+              <img src={Sundae} alt="summertime" className="image"></img>
+            </div>
+            <div className="promo-content">
+              <h2>Add chill time to summertime</h2>
               <p>
                 Treat the family to the sweet taste of summer with soft serve
                 cones, sundaes, and snack size milkshakes.
@@ -18,10 +23,13 @@ const Promotions = () => {
               <button>Download App</button>
             </div>
           </div>
-          <div>
-            <img src={RefreshingSip} alt="drinks"></img>
-            <div>
-              <h3>Take a refreshing sip of summer</h3>
+
+          <div className="promo-container">
+            <div className="image-container">
+              <img src={RefreshingSip} alt="drinks" className="image"></img>
+            </div>
+            <div className="promo-content">
+              <h2>Take a refreshing sip of summer</h2>
               <p>
                 We’re serving up all your refreshing favourites all season long.
                 Available in medium for only $1 or $2 + tax.
