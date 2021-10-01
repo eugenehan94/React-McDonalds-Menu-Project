@@ -1,11 +1,13 @@
+import Navbar from "./Navbar";
 import Sundae from "../images/SundaeDrinkSummerTime.jpg";
 import RefreshingSip from "../images/RefreshingSipOfSummer.jpg";
-import McMuffin from "../images/YourFavouriteMcMuffin.jpg";
-import BicMac from "../images/BigMacJustGotBigger.jpg";
+// import McMuffin from "../images/YourFavouriteMcMuffin.jpg";
+// import BicMac from "../images/BigMacJustGotBigger.jpg";
 import "../css/Promotions.css";
 const Promotions = () => {
   return (
     <>
+      <Navbar />
       <h1 className="Promotions-title">Deals & Promotions</h1>
       <div className="deals-outer-container">
         {/* Top <div> is the whole page */}

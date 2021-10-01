@@ -24,3 +24,23 @@
   padding: 1rem 2rem;
   margin-left: 0;
 }
+@media screen and (max-width: 768px) {
+  .familyImage {
+    width: 100%;
+  }
+  .family-message-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+  .family-message-content {
+    padding-right: 0rem;
+    text-align: center;
+  }
+  .family-message-button {
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}

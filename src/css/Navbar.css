@@ -17,7 +17,9 @@
   bottom: 0px;
   left: 7rem;
 }
-
+.Navbar-choices-smaller-container {
+  display: none;
+}
 ul {
   list-style-type: none;
 }
@@ -34,4 +36,58 @@ li a {
 .active {
   border-bottom: 5px solid rgb(202, 5, 5);
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar-container-inner {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Navbar-logo img {
+    width: 50%;
+  }
+  .Navbar-choices-container {
+    display: none;
+  }
+  .Navbar-choices-smaller-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+  }
+  .Navbar-hamburger-menu {
+    font-size: 36px;
+  }
+  .Navbar-hamburger-menu:hover {
+    cursor: pointer;
+  }
+
+  .Navbar-overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: -1;
+    transform: translate(0, -100%);
+    transition: all 0.3s linear;
+  }
+  .Navbar-open {
+    z-index: 999;
+    transform: translate(0, 0px);
+  }
+  .Navbar-smaller-navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Navbar-smaller-navbar button {
+    font-size: 36px;
+  }
+  .Navbar-smaller-list li {
+    padding: 1rem;
+  }
+  .Navbar-smaller-list li {
+    display: block;
+  }
 }

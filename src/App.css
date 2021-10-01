@@ -9,3 +9,16 @@
 .container-menu {
   width: 75%;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-categories {
+    margin: 1rem;
+  }
+  .container-menu {
+    width: 95%;
+  }
+}

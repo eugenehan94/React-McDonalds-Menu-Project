@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 import familyImage from "../images/FamilyImage.jpg";
 
 import "../css/Family.css";
@@ -5,10 +6,11 @@ import "../css/Family.css";
 const Family = () => {
   return (
     <>
+      <Navbar />
       <h1 className="Family-title">Family</h1>
 
       <div>
-        <img src={familyImage} alt="Family Image" className="familyImage"></img>
+        <img src={familyImage} alt="Family" className="familyImage"></img>
       </div>
       <div className="family-message-container">
         <div className="family-message-title">
