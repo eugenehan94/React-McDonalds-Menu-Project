@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-McDonalds-Menu-Project/static/css/main.73fe4dd5.chunk.css",
+    "main.js": "/React-McDonalds-Menu-Project/static/js/main.3cf383e9.chunk.js",
+    "main.js.map": "/React-McDonalds-Menu-Project/static/js/main.3cf383e9.chunk.js.map",
+    "runtime-main.js": "/React-McDonalds-Menu-Project/static/js/runtime-main.e1b42517.js",
+    "runtime-main.js.map": "/React-McDonalds-Menu-Project/static/js/runtime-main.e1b42517.js.map",
+    "static/js/2.f48433a9.chunk.js": "/React-McDonalds-Menu-Project/static/js/2.f48433a9.chunk.js",
+    "static/js/2.f48433a9.chunk.js.map": "/React-McDonalds-Menu-Project/static/js/2.f48433a9.chunk.js.map",
+    "index.html": "/React-McDonalds-Menu-Project/index.html",
+    "static/css/main.73fe4dd5.chunk.css.map": "/React-McDonalds-Menu-Project/static/css/main.73fe4dd5.chunk.css.map",
+    "static/js/2.f48433a9.chunk.js.LICENSE.txt": "/React-McDonalds-Menu-Project/static/js/2.f48433a9.chunk.js.LICENSE.txt",
+    "static/media/BigMacJustGotBigger.c409f521.jpg": "/React-McDonalds-Menu-Project/static/media/BigMacJustGotBigger.c409f521.jpg",
+    "static/media/FamilyImage.e9800a1c.jpg": "/React-McDonalds-Menu-Project/static/media/FamilyImage.e9800a1c.jpg",
+    "static/media/RefreshingSipOfSummer.ca195486.jpg": "/React-McDonalds-Menu-Project/static/media/RefreshingSipOfSummer.ca195486.jpg",
+    "static/media/SundaeDrinkSummerTime.f536f553.jpg": "/React-McDonalds-Menu-Project/static/media/SundaeDrinkSummerTime.f536f553.jpg",
+    "static/media/YourFavouriteMcMuffin.5ed1b212.jpg": "/React-McDonalds-Menu-Project/static/media/YourFavouriteMcMuffin.5ed1b212.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1b42517.js",
+    "static/js/2.f48433a9.chunk.js",
+    "static/css/main.73fe4dd5.chunk.css",
+    "static/js/main.3cf383e9.chunk.js"
+  ]
+}
