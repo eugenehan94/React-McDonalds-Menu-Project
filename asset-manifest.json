@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-McDonalds-Menu-Project/static/css/main.9926887f.chunk.css",
+    "main.css": "/React-McDonalds-Menu-Project/static/css/main.5c396a82.chunk.css",
     "main.js": "/React-McDonalds-Menu-Project/static/js/main.bcf002bb.chunk.js",
     "main.js.map": "/React-McDonalds-Menu-Project/static/js/main.bcf002bb.chunk.js.map",
     "runtime-main.js": "/React-McDonalds-Menu-Project/static/js/runtime-main.e1b42517.js",
@@ -8,7 +8,7 @@
     "static/js/2.1b0e032a.chunk.js": "/React-McDonalds-Menu-Project/static/js/2.1b0e032a.chunk.js",
     "static/js/2.1b0e032a.chunk.js.map": "/React-McDonalds-Menu-Project/static/js/2.1b0e032a.chunk.js.map",
     "index.html": "/React-McDonalds-Menu-Project/index.html",
-    "static/css/main.9926887f.chunk.css.map": "/React-McDonalds-Menu-Project/static/css/main.9926887f.chunk.css.map",
+    "static/css/main.5c396a82.chunk.css.map": "/React-McDonalds-Menu-Project/static/css/main.5c396a82.chunk.css.map",
     "static/js/2.1b0e032a.chunk.js.LICENSE.txt": "/React-McDonalds-Menu-Project/static/js/2.1b0e032a.chunk.js.LICENSE.txt",
     "static/media/FamilyImage.e9800a1c.jpg": "/React-McDonalds-Menu-Project/static/media/FamilyImage.e9800a1c.jpg",
     "static/media/KidsMealGrilledChicken.756783a3.jpg": "/React-McDonalds-Menu-Project/static/media/KidsMealGrilledChicken.756783a3.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1b42517.js",
     "static/js/2.1b0e032a.chunk.js",
-    "static/css/main.9926887f.chunk.css",
+    "static/css/main.5c396a82.chunk.css",
     "static/js/main.bcf002bb.chunk.js"
   ]
 }
