@@ -28,7 +28,7 @@
 .family-standards-message-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem;
+  box-sizing: border-box;
   width: 100%;
 }
 .family-standards-inner {
