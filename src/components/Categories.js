@@ -1,7 +1,6 @@
 import "../css/Categories.css";
 import categoryPics from "./CategoryPics";
 const Categories = ({ categories, filtering, fullMenu, selected }) => {
-  console.log(categoryPics[0]);
   return (
     <div>
       <div className="button-reset-container">

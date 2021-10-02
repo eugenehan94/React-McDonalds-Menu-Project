@@ -9,8 +9,10 @@
   box-sizing: border-box;
 }
 .deals-inner-container {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .promo-container {
   border: 1px solid rgba(128, 128, 128, 0.3);
@@ -30,6 +32,14 @@
 
 .promo-content {
   margin: 0rem 2rem;
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  padding: 0;
+}
+.promo-content h2,
+.promo-content p {
+  margin: 0;
+  padding: 0;
 }
 .promo-content button {
   background-color: #ffbc0d;

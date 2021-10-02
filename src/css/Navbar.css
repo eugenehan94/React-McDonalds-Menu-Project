@@ -20,13 +20,13 @@
 .Navbar-choices-smaller-container {
   display: none;
 }
-ul {
+.Navbar-choices-container ul {
   list-style-type: none;
 }
-li {
+.Navbar-choices-container ul li {
   display: inline;
 }
-li a {
+.Navbar-choices-container ul li a {
   padding: 10px 16px;
   text-decoration: none;
   font-size: 24px;
@@ -86,8 +86,11 @@ li a {
   }
   .Navbar-smaller-list li {
     padding: 1rem;
-  }
-  .Navbar-smaller-list li {
+    list-style-type: none;
     display: block;
+  }
+  .Navbar-smaller-list li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
   }
 }

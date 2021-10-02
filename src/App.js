@@ -5,7 +5,7 @@ import CovidMessage from "./components/CovidMessage";
 import Menu from "./components/Menu";
 import Categories from "./components/Categories";
 import MenuOptions from "./components/MenuOptions";
-
+import Footer from "./components/Footer";
 //The new Set function isolates for unique values
 //Prevents repeating categories from being displayed
 const allCategories = [
@@ -71,6 +71,7 @@ function App() {
           <Menu selected={selected} menus={menu} />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

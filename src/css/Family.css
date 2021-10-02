@@ -6,6 +6,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 .family-message-container {
   display: grid;
@@ -24,6 +25,31 @@
   padding: 1rem 2rem;
   margin-left: 0;
 }
+.family-standards-message-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  width: 100%;
+}
+.family-standards-inner {
+  flex: 1;
+  padding: 1rem;
+}
+.family-standards-inner img {
+  width: 100%;
+}
+/* */
+.family-safety-message-container {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  padding: 6rem;
+}
+
+.family-safety-right-list li {
+  display: inline-block;
+  margin: 0.3rem 0;
+}
+
 @media screen and (max-width: 768px) {
   .familyImage {
     width: 100%;
@@ -42,5 +68,23 @@
     padding: 1rem 2rem;
     margin: 0;
     margin-bottom: 1rem;
+  }
+  .family-standards-message-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    gap: 0.3rem;
+    text-align: center;
+  }
+  .family-safety-message-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    text-align: center;
+  }
+  .family-safety-right-list li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
   }
 }
