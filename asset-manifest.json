@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/React-McDonalds-Menu-Project/static/css/main.f3e64b5d.chunk.css",
-    "main.js": "/React-McDonalds-Menu-Project/static/js/main.6e2df13a.chunk.js",
-    "main.js.map": "/React-McDonalds-Menu-Project/static/js/main.6e2df13a.chunk.js.map",
+    "main.css": "/React-McDonalds-Menu-Project/static/css/main.9926887f.chunk.css",
+    "main.js": "/React-McDonalds-Menu-Project/static/js/main.bcf002bb.chunk.js",
+    "main.js.map": "/React-McDonalds-Menu-Project/static/js/main.bcf002bb.chunk.js.map",
     "runtime-main.js": "/React-McDonalds-Menu-Project/static/js/runtime-main.e1b42517.js",
     "runtime-main.js.map": "/React-McDonalds-Menu-Project/static/js/runtime-main.e1b42517.js.map",
-    "static/js/2.010378ea.chunk.js": "/React-McDonalds-Menu-Project/static/js/2.010378ea.chunk.js",
-    "static/js/2.010378ea.chunk.js.map": "/React-McDonalds-Menu-Project/static/js/2.010378ea.chunk.js.map",
+    "static/js/2.1b0e032a.chunk.js": "/React-McDonalds-Menu-Project/static/js/2.1b0e032a.chunk.js",
+    "static/js/2.1b0e032a.chunk.js.map": "/React-McDonalds-Menu-Project/static/js/2.1b0e032a.chunk.js.map",
     "index.html": "/React-McDonalds-Menu-Project/index.html",
-    "static/css/main.f3e64b5d.chunk.css.map": "/React-McDonalds-Menu-Project/static/css/main.f3e64b5d.chunk.css.map",
-    "static/js/2.010378ea.chunk.js.LICENSE.txt": "/React-McDonalds-Menu-Project/static/js/2.010378ea.chunk.js.LICENSE.txt",
+    "static/css/main.9926887f.chunk.css.map": "/React-McDonalds-Menu-Project/static/css/main.9926887f.chunk.css.map",
+    "static/js/2.1b0e032a.chunk.js.LICENSE.txt": "/React-McDonalds-Menu-Project/static/js/2.1b0e032a.chunk.js.LICENSE.txt",
     "static/media/FamilyImage.e9800a1c.jpg": "/React-McDonalds-Menu-Project/static/media/FamilyImage.e9800a1c.jpg",
+    "static/media/KidsMealGrilledChicken.756783a3.jpg": "/React-McDonalds-Menu-Project/static/media/KidsMealGrilledChicken.756783a3.jpg",
+    "static/media/KidsMealYogurt.db092481.jpg": "/React-McDonalds-Menu-Project/static/media/KidsMealYogurt.db092481.jpg",
     "static/media/RefreshingSipOfSummer.ca195486.jpg": "/React-McDonalds-Menu-Project/static/media/RefreshingSipOfSummer.ca195486.jpg",
+    "static/media/SeniorsCoffeeOfferImage.fb266cb5.jpg": "/React-McDonalds-Menu-Project/static/media/SeniorsCoffeeOfferImage.fb266cb5.jpg",
+    "static/media/SpicyMcNuggetsPromo.96becd24.jpg": "/React-McDonalds-Menu-Project/static/media/SpicyMcNuggetsPromo.96becd24.jpg",
     "static/media/SundaeDrinkSummerTime.f536f553.jpg": "/React-McDonalds-Menu-Project/static/media/SundaeDrinkSummerTime.f536f553.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e1b42517.js",
-    "static/js/2.010378ea.chunk.js",
-    "static/css/main.f3e64b5d.chunk.css",
-    "static/js/main.6e2df13a.chunk.js"
+    "static/js/2.1b0e032a.chunk.js",
+    "static/css/main.9926887f.chunk.css",
+    "static/js/main.bcf002bb.chunk.js"
   ]
 }
